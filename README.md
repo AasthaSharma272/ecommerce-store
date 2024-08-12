@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**E-Commerce Store**
 
-## Getting Started
+This E-Commerce Store is a dynamic and feature-rich template that allows you to quickly set up your online store using the StoreMaster API (check that repository). With advanced filtering options, customers can easily find the products they’re looking for, making it a seamless shopping experience. Simply configure your environment, create a store using StoreMaster, connect to the StoreMaster API for that particular store, and have your store running on localhost in no time.
 
-First, run the development server:
+**Features**
 
+Advanced Product Filtering: Allows customers to filter products by categories, sizes, and more, ensuring they find exactly what they need.
+
+Easy Setup: Quickly configure your environment and get your store running.
+
+API Integration: Seamlessly connect to the StoreMaster API for inventory, categories, products, and order management.
+
+Local Hosting: Run your store on localhost during development.
+
+**Installation**
+
+Clone the Repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/aasthasharma272/ecommerce-store.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the Project Directory:
+```bash
+cd ecommerce-store
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install Dependencies:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Set Up Environment Variables:
+Create a .env file in the root directory and add your StoreMaster API key
 
-## Learn More
+Start the Development Server:
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
