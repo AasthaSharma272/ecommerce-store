@@ -1,3 +1,5 @@
+Created By: Aryaman and Aastha
+
 **E-Commerce Store**
 
 This E-Commerce Store is a dynamic and feature-rich template that allows you to quickly set up your online store using the StoreMaster API (check that repository). With advanced filtering options, customers can easily find the products they’re looking for, making it a seamless shopping experience. Simply configure your environment, create a store using StoreMaster, connect to the StoreMaster API for that particular store, and have your store running on localhost in no time.
